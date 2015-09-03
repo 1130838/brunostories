@@ -398,14 +398,15 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:1130838/brunostories.git',
+          remote: 'https://github.com/1130838/brunostories.git',
           branch: 'gh-pages'
         }
       },
       heroku: {
         options: {
-          remote: 'heroku',
-          branch: 'master'
+          remote: 'git@heroku.com:brunostories.git',
+          branch: 'master',
+          tag: pkg.version
         }
       },
       openshift: {
