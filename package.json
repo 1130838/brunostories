@@ -1,6 +1,6 @@
 {
   "name": "brunostories",
-  "version": "0.0.0",
+  "version": "4.0.0",
   "main": "server/app.js",
   "dependencies": {
     "express": "~4.9.0",
@@ -16,7 +16,10 @@
     "jade": "~1.2.0",
     "mongoose": "~4.0.3",
     "composable-middleware": "^0.3.0",
-    "connect-mongo": "^0.8.1"
+    "connect-mongo": "^0.8.1",
+    "socket.io": "^1.0.6",
+    "socket.io-client": "^1.0.6",
+    "socketio-jwt": "^2.0.2"
   },
   "devDependencies": {
     "connect-livereload": "~0.4.0",
